@@ -21,7 +21,7 @@ Active Admin is released as a Ruby Gem. The gem is to be installed within a Ruby
 on Rails 3 application. To install, simply add the following to your Gemfile:
 
   # Gemfile
-  gem 'activeadmin'
+	gem 'activeadmin', :git => "git://github.com/rbialek/active_admin.git"
 
 After updating your bundle, run the installer
 
