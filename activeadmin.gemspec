@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency("arel", ">= 2.1.1")
-  s.add_dependency("rails", "~= 3.1.0")
+  s.add_dependency("rails", ">= 3.1.0.rc4")
   s.add_dependency("meta_search", ">= 0.9.2")
   s.add_dependency("devise", ">= 1.1.2")
   s.add_dependency("formtastic", ">= 1.1.0")
